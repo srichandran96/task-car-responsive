@@ -1,0 +1,50 @@
+@media screen and (max-width:1000px) {
+	.content_section {
+		width: 100%;
+		text-align: center;
+	}
+
+	.image {
+		width: 100%;
+		position: absolute;
+		bottom: -20%;
+		display: flex;
+		justify-content: center;
+		z-index:2;
+	}
+
+	img {
+		width: 240px;
+	}
+}
+
+@media screen and (max-width:566px) {
+	.content_section {
+		width: 100%;
+		text-align: center;
+	}
+
+	.content_section h3 {
+		margin-bottom: 5%;
+	}
+
+	.content_section h2 {
+		margin-bottom: 5%;
+	}
+
+	.content_section h1 {
+		margin-bottom: 5%;
+	}
+
+	.image {
+		width: 100%;
+		position: absolute;
+		bottom: -20%;
+		display: flex;
+		justify-content: center;
+	}
+
+	img {
+		width: 240px;
+	}
+}
